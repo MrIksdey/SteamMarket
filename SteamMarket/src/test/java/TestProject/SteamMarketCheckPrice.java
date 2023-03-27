@@ -12,8 +12,8 @@ public class SteamMarketCheckPrice extends BaseTest {
     public void alerts() {
         SignInPage signInPage = new SignInPage();
 
-        signInPage.sendUsernameKeys("potar");
-        signInPage.sendPasswordKeys("tojebanylaps");
+        signInPage.sendUsernameKeys("login");
+        signInPage.sendPasswordKeys("password");
         signInPage.clickSignInButton();
 
         MarketPage marketPage = new MarketPage();
